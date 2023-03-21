@@ -1,4 +1,4 @@
-<ion-list>
+<section>
   <ion-item>
     <ion-label><ion-icon name="mail-outline"></ion-icon></ion-label>
     <ion-input placeholder="correo electr&oacute;nico"></ion-input>
@@ -7,5 +7,6 @@
     <ion-label><ion-icon name="key-outline"></ion-icon></ion-label>
     <ion-input type="password" placeholder="contrase&ntilde;a"></ion-input>
   </ion-item>
-</ion-list>
-<ion-button fill="outline" color="success">Inciar</ion-button>
+  <ion-button fill="outline" color="success">Inciar</ion-button>
+  <a [routerLink]="['/invoces']" routerLinkActive="router-link-active">Lista de facturas</a>
+</section>
