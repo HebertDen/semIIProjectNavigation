@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'invoces',
     loadChildren: () => import('./invoces/invoces.module').then( m => m.InvocesPageModule)
   },
+  {
+    path: 'create',
+    loadChildren: () => import('./create/create.module').then( m => m.CreatePageModule)
+  },
 ];
 
 @NgModule({
