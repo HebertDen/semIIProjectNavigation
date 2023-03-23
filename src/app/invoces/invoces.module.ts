@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { InvocesPageRoutingModule } from './invoces-routing.module';
 
 import { InvocesPage } from './invoces.page';
+import { ListInvocesComponent } from './list-invoces/list-invoces.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { InvocesPage } from './invoces.page';
     IonicModule,
     InvocesPageRoutingModule
   ],
-  declarations: [InvocesPage]
+  declarations: [InvocesPage, ListInvocesComponent]
 })
 export class InvocesPageModule {}
