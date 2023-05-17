@@ -5,9 +5,9 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class CategoriaService {
-  public urlServer = environment.URL;
+  public urlServer = environment.URL
 
   constructor() {
-    
+
   }
 }

@@ -3,7 +3,7 @@ export class Categoria {
     public nombre: string = '';
 
     setValues(data: any){
-        this.id = data.id;
+        this.id = data.id
         this.nombre = data.nombre;
     }
 

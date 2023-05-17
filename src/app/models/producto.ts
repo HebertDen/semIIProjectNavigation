@@ -11,7 +11,7 @@ export class Producto {
         this.id = data.id;
         this.nombre = data.nombre;
         this.precio = data.precio;
-        this.detalle = data.detalle;
+        this.detalle = data.detalle
         this.categoria = new Categoria;
         this.categoria.setValues(data.categoria);
     }
